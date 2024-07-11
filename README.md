@@ -74,5 +74,6 @@ D) send files or execute commands over SSH
 
 10. Access web application from browser which is running on container
 ```
-<docker_host_Public_IP>:8090
+<docker_host_Public_IP>:8081
 ```
+![1](https://github.com/kamleshrawat/Maven-Project-with-Docker-and-Jenkins/assets/108130020/25a27858-fe94-4c34-9299-6335d9636a87)
