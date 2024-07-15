@@ -1,4 +1,4 @@
-# CICD-GiT-Maven-Jenkins-Docker
+# Maven Project with Docker and Jenkins
  
 
 ![11](https://github.com/user-attachments/assets/55bf107e-feba-46a0-84d0-ae1e30c05523)
