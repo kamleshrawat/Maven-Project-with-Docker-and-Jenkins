@@ -1,7 +1,7 @@
 # CICD-GiT-Maven-Jenkins-Docker
  
 
-![image](https://user-images.githubusercontent.com/78950897/113699704-5d347080-96ef-11eb-9fb9-91f2a13089e6.png)
+![11](https://github.com/user-attachments/assets/55bf107e-feba-46a0-84d0-ae1e30c05523)
 
 
 1. Launch an EC2 instance for Docker host
