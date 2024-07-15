@@ -1,9 +1,7 @@
-# CICD-GiT-Maven-Jenkins-Docker
+# Maven Project with Docker and Jenkins
 
-HandsOn Tutorial at:
-https://youtu.be/eWtpBiOsny4 
 
-![image](https://user-images.githubusercontent.com/78950897/113699704-5d347080-96ef-11eb-9fb9-91f2a13089e6.png)
+![11](https://github.com/user-attachments/assets/4bd0373d-d7f4-465b-adab-c44fc7326a84)
 
 
 1. Launch an EC2 instance for Docker host
@@ -31,7 +29,7 @@ mkdir /opt/docker
 From tomcat:9-jre9 
 
 # Maintainer
-MAINTAINER "DEVOPS with KK" 
+MAINTAINER "DEVOPS with Kamlesh" 
 
 # copy war file on to container 
 COPY ./webapp.war /usr/local/tomcat/webapps
@@ -43,7 +41,7 @@ Manage Jenkins --> Configure system -->  Publish over SSH --> add Docker server 
 6. Create Jenkins job 
 
 A) Source Code Management  
- Repository : https://github.com/khalid-kifayat/CICD-GiT-Maven-Jenkins-Docker.git
+ Repository : https://github.com/kamleshrawat/Maven-Project-with-Docker-and-Jenkins.git
  Branches to build : */main  
 
 B) Build
@@ -78,3 +76,4 @@ D) send files or execute commands over SSH
 ```
 <docker_host_Public_IP>:8090
 ```
+![12](https://github.com/user-attachments/assets/a960058a-ea31-48f5-90b2-23a32a1900d1)
