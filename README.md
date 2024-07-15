@@ -29,7 +29,7 @@ mkdir /opt/docker
 From tomcat:9-jre9 
 
 # Maintainer
-MAINTAINER "DEVOPS with KK" 
+MAINTAINER "DEVOPS with Kamlesh" 
 
 # copy war file on to container 
 COPY ./webapp.war /usr/local/tomcat/webapps
